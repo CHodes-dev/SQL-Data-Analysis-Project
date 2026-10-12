@@ -21,31 +21,30 @@ Highlights :
 ==================================================================================================
 */
 create view gold.report_products as
-with base_query as (
 /* --------------------------------------------------------------------------------
 1) Base Query: Retrives core columns from tables
 ---------------------------------------------------------------------------------*/
-	select
-		f.order_name,
-		f.order_date,
-		f.customer_key,
-		f.sales_amount,
-		f.quantity,
-		p.product_key,
-		p.product_name,
-		p.category,
-		p.subcategory,
-		p.cost
-	from gold.fact_sales as f
-	left join gold.dim_products as p
-	on f.product_key = p.product_key
-	where order_date is not null
+with base_query as (	
+select
+	f.order_name,
+	f.order_date,
+	f.customer_key,
+	f.sales_amount,
+	f.quantity,
+	p.product_key,
+	p.product_name,
+	p.category,
+	p.subcategory,
+	p.cost
+from gold.fact_sales as f
+left join gold.dim_products as p
+on f.product_key = p.product_key
+where order_date is not null
 ),
-
-product_aggregate as (
 /* --------------------------------------------------------------------------------
 2) Product Aggregation: Summarize key metrics at the product level
 ---------------------------------------------------------------------------------*/
+product_aggregate as (
 select
 	product_key,
 	product_name,
@@ -67,7 +66,6 @@ group by
 	subcategory,
 	cost
 )
-
 /* --------------------------------------------------------------------------------
 3) Final Query: Combines all product results into one output
 ---------------------------------------------------------------------------------*/
@@ -101,7 +99,3 @@ select
 		else total_sales / lifespan
 	end as avg_monthly_revenue
 from product_aggregate;
-
-/* Execute Report VIEW */
-
-select * from gold.report_products;
