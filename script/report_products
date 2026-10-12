@@ -98,4 +98,4 @@ select
 		when lifespan = 0 then total_sales
 		else total_sales / lifespan
 	end as avg_monthly_revenue
-from product_aggregate;
+from product_aggregate
