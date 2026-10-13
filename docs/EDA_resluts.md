@@ -41,7 +41,7 @@ Identify the available dimensions, unique values, and categories that can be use
 
 ### Analysis Results
 - Table **dim_customers** contains data on customers’ countries of origin; there are a total of 6 different countries (Germany, United States, Australia, United Kingdom, Canada, and France).
-- Table **dim_products** has three interrelated columns: category, subcategory and product name. This allows us to see how the data can be grouped. If grouped by **category**, there will be **four data groups**; if grouped by **subcategory**, there will be **36 data groups**; and if grouped by** product**, there will be **295 data groups**.
+- Table **dim_products** has three interrelated columns: category, subcategory and product name. This allows us to see how the data can be grouped. If grouped by **category**, there will be **four data groups**; if grouped by **subcategory**, there will be **36 data groups**; and if grouped by **product**, there will be **295 data groups**.
 
 ## 4. Date Exploration
 
@@ -74,6 +74,7 @@ Measure and compare the size or contribution of different categories or entities
 
 ### Analysis
 - The majority of customers are from the United States, accounting for almost half of the total number of registered customers. However, there are still 337 customers whose country of origin is not recorded, indicated as ‘n/a’.
+
 | country | total_customers |
 | --- | --- |
 | United States	 | 7,482 |
