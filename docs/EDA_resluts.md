@@ -26,11 +26,11 @@ Understand the database structure, available tables, data types, and the overall
 ### Analysis Results
 - There are three different schemas: bronze, silver and gold. The bronze and silver schemas each contain six tables, whilst the gold schema contains three views.
 
-[Database Structure](https://github.com/CHodes-dev/SQL-Data-Analysis-Project/blob/main/docs/db_structure.png)
+![Database Structure](https://github.com/CHodes-dev/SQL-Data-Analysis-Project/blob/main/docs/db_structure.png)
 
 - Through more detailed data exploration down to table level, not only do the database, schema and table names appear, but so do the column names for each table. Furthermore, the data types, character lengths and NULL rules for each table can be identified.
 
-[Database Structure 2](https://github.com/CHodes-dev/SQL-Data-Analysis-Project/blob/main/docs/db_structure_2.png)
+![Database Structure 2](https://github.com/CHodes-dev/SQL-Data-Analysis-Project/blob/main/docs/db_structure_2.png)
 
 Once we know which tables and data columns are contained in the database, we can distinguish between dimension and measure columns. We can then proceed to explore the dimension tables.
 
