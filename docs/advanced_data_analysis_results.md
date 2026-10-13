@@ -144,12 +144,10 @@ An annual analysis of product performance, comparing sales figures with average 
 | … | … | … | … | … | … | … | … | … |
 
 ### Key Findings
-- **Best Performance:** 
-- **Largest Improvement:** [Entity and result]
-- **Largest Decline:** [Entity and result]
+Sales of the Mountain-200 Black-42 recorded the highest average sales figure, at around $681,564, with the best performance in 2013. Most products also saw an increase or remained stable in 2013. 
 
 ### Interpretation
-[Explain which entities show stronger or weaker performance relative to the selected comparison. Clarify the metric and comparison period.]
+2013 was the company’s best-performing year due to high revenue levels, as sales volumes for the majority of products increased and remained stable.
 
 ---
 
@@ -165,18 +163,19 @@ Determine how individual categories or entities contribute to the overall total 
 
 ### Analysis Results
 
-| Category | Metric Value | Contribution (%) |
-|---|---:|---:|
-| [Category 1] | [Value] | [Value]% |
-| [Category 2] | [Value] | [Value]% |
-| [Category 3] | [Value] | [Value]% |
-| **Total** | **[Total]** | **100%** |
+The product categories that contribute significantly to total sales
+
+| category | total_sales | overall_sales | perc_of_total |
+| --- | --- | --- | --- |
+| Bikes | 28,316,272 | 29,356,250 | 96.46% |
+| Accessories | 700,262 | 29,356,250 | 2.39% |
+| Clothing | 339,716 | 29,356,250 | 1.16% |
 
 ### Key Findings
-[Identify the largest contributors and summarize how the total is distributed.]
+The Bike product category made the largest contribution to total sales, contributing 96.46%.
 
 ### Interpretation
-[Explain what the contribution pattern reveals. If a few categories account for a large share of the total, describe the concentration without assuming it is automatically positive or negative.]
+The majority of the company’s revenue comes from products in the bike category, whilst there is still a segment of customers who purchase other products.
 
 ---
 
@@ -190,24 +189,37 @@ Divide data into meaningful groups based on selected attributes or business rule
 - Which segments have the highest or lowest values?
 - How does performance differ between segments?
 
-### Segmentation Criteria
-- **Segmenting Attribute:** [e.g., customer age, product category, spending level]
-- **Segmentation Rule:** [Explain the grouping logic]
-- **Metric Evaluated:** [e.g., total sales, order count, average spending]
-
 ### Analysis Results
 
-| Segment | Number of Entities | Metric Value | Observation |
-|---|---:|---:|---|
-| [Segment 1] | [Value] | [Value] | [Observation] |
-| [Segment 2] | [Value] | [Value] | [Observation] |
-| [Segment 3] | [Value] | [Value] | [Observation] |
+Product groups by price range, along with information on the number of products in each group
+
+| cost_range | total_products |
+| --- | --- |
+| Below 100 | 110 |
+| 100 - 500 | 101 |
+| 500 - 1000 | 45 |
+| Above 1000 | 39 |
 
 ### Key Findings
-[Summarize the differences between segments and identify any notable patterns.]
+Products priced under $100 are the most numerous among all price ranges. Meanwhile, there are 39 types of products priced above $1,000, which is the fewest number.
+
+Customer groups based on their purchasing habits
+Notes:
+1. VIP: customers with a membership history of at least 12 months and total spending of more than $5,000.
+2. Regular: customers with a membership history of at least 12 months, but total spending of $5,000 or less.
+3. New: customers with a membership period of less than 12 months.
+
+| customer_segment | total_customer |
+| --- | --- |
+| New | 14,631 |
+| Regular | 2,198 |
+| VIP | 1,655 |
+
+### Key Findings
+It turns out that more customers in the ‘New’ category have been members for less than 12 months.
 
 ### Interpretation
-[Explain how the segments differ and what further questions or business opportunities the results may suggest.]
+There are more products priced under $100 than those priced over $1,000. And there are more customers in the ‘New’ category who have only just registered, this means there are factors driving this increase in the number of new customers.
 
 ---
 
@@ -215,11 +227,11 @@ Divide data into meaningful groups based on selected attributes or business rule
 
 ### Key Takeaways
 
-1. **Changes Over Time:** [Most important finding]
-2. **Cumulative Analysis:** [Most important finding]
-3. **Performance Analysis:** [Most important finding]
-4. **Part-to-Whole Analysis:** [Most important finding]
-5. **Data Segmentation:** [Most important finding]
+1. **Changes Over Time:** Sales performance improved as the fourth quarter began and declined again as the first quarter of the following year began.
+2. **Cumulative Analysis:** Sales performance peaked between late 2012 and early 2013; however, from late 2013 to early 2014, sales fell sharply.
+3. **Performance Analysis:** 2013 was the company’s best-performing year due to high revenue levels, as sales volumes for the majority of products increased and remained stable.
+4. **Part-to-Whole Analysis:** The majority of the company’s revenue comes from products in the bike category.
+5. **Data Segmentation:** There are more customers in the ‘New’ category who have only just registered.
 
 ### Conclusion
 
