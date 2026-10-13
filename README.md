@@ -35,6 +35,7 @@ The analytical findings are intended to support the development of a business pe
 | **SQL Server Express** |Lightweight relational database server for hosting and managing the data warehouse|
 | **SQL Server Management Studio (SSMS)** |GUI-based tool for writing queries, managing database objects, and interacting with SQL Server |
 | **Git & GitHub** |Version control and repository management for tracking changes and collaborating on code|
+| **DrawIO** | Diagramming tool used to design analyzing workflow |
 | **Notion** |Project management tool used to organize phases, tasks, and documentation throughout the project |
 | **Power BI** |Business performance reporting and interactive data visualization. |
 
