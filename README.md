@@ -67,9 +67,9 @@ A basic understanding of the following concepts will help users follow the proje
 SQL-Data-Analysis-Project/
 |
 |- datasets/                                   # Datasets used for the project (ERP and CRM)
-|  |- source_crm			                         # Specific folder for storing data from the CRM source
-|  |- source_erp			                         # Specific folder for storing data from the ERP source
-|  |- guidelines.md			                       # Guide before starting a project and using the dataset
+|  |- source_crm                               # Specific folder for storing data from the CRM source
+|  |- source_erp                               # Specific folder for storing data from the ERP source
+|  |- guidelines.md                            # Guide before starting a project and using the dataset
 |
 |- docs/                                       # Project documentation in the form of text and images
 |  |- images                                   # Specific folder for storing images in the project
