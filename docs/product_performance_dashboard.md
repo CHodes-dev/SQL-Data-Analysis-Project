@@ -4,7 +4,7 @@
 
 ## 1. Introduction
 
-This dashboard provides an overview of product performance from the report_products(https://github.com/CHodes-dev/SQL-Data-Analysis-Project/blob/main/script/report_products.sql). It monitors sales, revenue, costs, quantities and product performance segments to identify high-performing products and assess their contribution at category level.
+This dashboard provides an overview of product performance from the [report_products](https://github.com/CHodes-dev/SQL-Data-Analysis-Project/blob/main/script/report_products.sql). It monitors sales, revenue, costs, quantities and product performance segments to identify high-performing products and assess their contribution at category level.
 
 ## 2. Dashboard Metrics
 
