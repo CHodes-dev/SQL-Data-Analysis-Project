@@ -161,8 +161,9 @@ Measure and compare the size or contribution of different categories or entities
 | n/a	 | 871 |
 
 ### Interpretation
-- Almost 50 per cent of customers are from the United States, and it is in this country that the product sells best.
+- Almost 50% of customers are from the United States, and it is in this country that the product sells best.
 - Products in the bike category incur the highest production costs but also account for the largest share of the company’s total revenue.
+- The ‘Components’ category has the highest number of products and the average cost of production is also the second highest, but it contributes nothing at all to the company’s total revenue.
 
 ## 7. Ranking Analysis
 
