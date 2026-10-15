@@ -66,27 +66,27 @@ A basic understanding of the following concepts will help users follow the proje
 ```
 SQL-Data-Analysis-Project/
 |
-|- datasets/                                 # Datasets used for the project (ERP and CRM)
-|  |- source_crm			                       # Specific folder for storing data from the CRM source
-|  |- source_erp			                       # Specific folder for storing data from the ERP source
-|  |- guidelines.md			                     # Guide before starting a project and using the dataset
+|- datasets/                                   # Datasets used for the project (ERP and CRM)
+|  |- source_crm			                         # Specific folder for storing data from the CRM source
+|  |- source_erp			                         # Specific folder for storing data from the ERP source
+|  |- guidelines.md			                       # Guide before starting a project and using the dataset
 |
-|- docs/                                     # Project documentation in the form of text and images
-|  |- images			    	                     # Specific folder for storing images in the project
-|  |- data_analysis_project.png              # png files shows the showing everything that has been done in this project
-|  |- EDA_results.md/  			                 # Show results of exploratory data analysis   
-|  |- advanced_data_analysis_results.md/     # Show results of advanced data analysis   
-|  |- customers_performance_dashboard.md/    # Preview of the customers performance dashboard with an explanation of its contents
-|  |- products_performance_dashboard.md/     # Preview of the products performance dashboard with an explanation of its contents
+|- docs/                                       # Project documentation in the form of text and images
+|  |- images                                   # Specific folder for storing images in the project
+|  |- data_analysis_project.png                # png files shows the showing everything that has been done in this project
+|  |- EDA_results.md/                          # Show results of exploratory data analysis   
+|  |- advanced_data_analysis_results.md/       # Show results of advanced data analysis   
+|  |- customers_performance_dashboard.md/      # Preview of the customers performance dashboard with an explanation of its contents
+|  |- products_performance_dashboard.md/       # Preview of the products performance dashboard with an explanation of its contents
 |
-|- scripts/                                  # SQL scripts for analyzing and build reports
-|  |-  EDA.sql/           		               # Scripts for focusing on understanding the data
-|  |-  advanced_data_analysis.sql/           # Scripts intended to answer business enquiries
-|  |-  report_customers.sql/                 # Script designed to generate reports relating to customer dimensions
-|  |-  report_products.sql/                  # Script designed to generate reports relating to product dimensions
+|- scripts/                                    # SQL scripts for analyzing and build reports
+|  |-  EDA.sql/                                # Scripts for focusing on understanding the data
+|  |-  advanced_data_analysis.sql/             # Scripts intended to answer business enquiries
+|  |-  report_customers.sql/                   # Script designed to generate reports relating to customer dimensions
+|  |-  report_products.sql/                    # Script designed to generate reports relating to product dimensions
 |
-|- README.md                                 # Project overview and instructions
-|- LICENSE                                   # License information for the repository
+|- README.md                                   # Project overview and instructions
+|- LICENSE                                     # License information for the repository
 ```
 
 ---
