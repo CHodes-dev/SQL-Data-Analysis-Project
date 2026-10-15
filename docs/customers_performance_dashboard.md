@@ -4,7 +4,7 @@
 
 ## 1. Introduction
 
-This dashboard presents a visualisation of the data from the analysis results in the previously created [customer_report](https://github.com/CHodes-dev/SQL-Data-Analysis-Project/blob/main/script/report_customers.sql). It is designed to monitor sales performance, purchasing behaviour, customer value and customer distribution in order to support the evaluation of customer performance.
+This dashboard presents a visualisation of the data from the analysis results in the previously created in [customer_report](https://github.com/CHodes-dev/SQL-Data-Analysis-Project/blob/main/script/report_customers.sql). It is designed to monitor sales performance, purchasing behaviour, customer value and customer distribution in order to support the evaluation of customer performance.
 
 ## 2. Dashboard Metrics
 
