@@ -1,6 +1,6 @@
 # Customers Performance Dashboard
 
-!(https://github.com/CHodes-dev/SQL-Data-Analysis-Project/blob/main/docs/images/customers_dashboard.png)
+![_Customers Performance Dashboard_](https://github.com/CHodes-dev/SQL-Data-Analysis-Project/blob/main/docs/images/customers_dashboard.png)
 
 ## 1. Introduction
 
