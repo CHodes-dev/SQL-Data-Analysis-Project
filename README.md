@@ -22,7 +22,7 @@ The analytical findings are intended to support the development of a business pe
 - Build a foundation for business reporting and performance visualization.
 
 > ⚠️ **Heads up!**
-> This project is This project is part of a **free course by [Data with Baraa](https://www.blog.datawithbaraa.com/)**. Dataset, query, and workflow in this repository follow his original course material.
+> This project is part of a **free course by [Data with Baraa](https://www.blog.datawithbaraa.com/)**. Dataset, query, and workflow in this repository follow his original course material.
 > This repository is a further development of existing material; the end result is a business report and a dashboard that I created myself.
 
 ---
